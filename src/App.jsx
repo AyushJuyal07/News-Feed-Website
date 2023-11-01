@@ -1,10 +1,12 @@
 import React from 'react'
-import Nav from './components/nav/Nav'
+import Nav from './components/header/Nav'
+import Body from './components/body/Body'
 
 const App = () => {
   return (
     <>
     <Nav />
+    <Body />
     </>
   )
 }

@@ -1,0 +1,109 @@
+.container{
+    height: 27vh;
+    background: #215695;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.header{
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar{
+    width: 50%;
+    height: 7vh;
+    background: #D9D9D9;
+    border-radius: 0 0 3rem 3rem;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+
+
+}
+
+.News-text h1{
+    padding: 2rem 0 0 15rem;
+    font-weight: 700;
+}
+
+.nav-elements{
+    display: flex;
+}
+
+.nav-elements h1{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.nav-news{
+    margin: 1rem;
+    width: 50%;
+    height: 4rem;
+    background: #D9D9D9;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+}
+
+.nav-news a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.nav-news h1{
+    font-size: 1.5rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.weather{
+    padding-right: 2rem;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right .bell{
+    font-size: 2rem;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-news-left{
+    background: #D9D9D9;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.nav-news-left a{
+    text-decoration: none;
+    color: black;
+}
