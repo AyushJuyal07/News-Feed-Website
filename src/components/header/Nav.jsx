@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import {BiBell} from 'react-icons/bi'
+import {BiSearch} from 'react-icons/bi'
 
 
 const nav = () => {
@@ -40,8 +41,8 @@ const nav = () => {
 
         <div className='nav-2'>
           <div className='nav-news-left'>
-            <a href="">Search</a>
-        
+              <a href="">Search</a>
+              <BiSearch />
           </div>
 
         <div className='nav-news'>
@@ -57,6 +58,7 @@ const nav = () => {
             <h1>|</h1>
             <a href="#hollywood">Hollywood</a>
         </div>
+
           <div className='nav-news-left'>
             <a href="">CU</a>
           </div>
