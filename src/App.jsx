@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from './components/header/Nav'
-import Body from './components/body/Body'
+import News from './components/news/News'
 
 const App = () => {
   return (
     <>
     <Nav />
-    <Body />
+    <News />
     </>
   )
 }
