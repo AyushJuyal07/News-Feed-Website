@@ -1,4 +1,4 @@
-.top{
+/* .top{
     padding-top: 1rem;
     width: 100%;
     display: grid;
@@ -6,7 +6,7 @@
 
 }
 .container-2{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,8 +61,94 @@
 .image img{
     width: 25rem;
     border-radius: 0.5rem;
+} */
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
 
+.top {
+    padding: 1rem;
+    width: 100%;
+    max-width: 1500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /*Center the content horizontally */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem; /* Adjust the gap between .container-2 elements */
+}
 
+.container-2 {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+        rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem; /* Add internal padding for separation within each container */
+    margin: 0;
+    background: #d9d9d9;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 400px; /* Add a maximum width for the .container-2 elements */
+    flex-direction: column;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.container-2:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.content h1 {
+    padding-bottom: 0.5rem;
+}
+
+.readMore {
+    background-color: #215695;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.readMore:hover {
+    background-color: transparent;
+    border: 1px solid #215695;
+}
+
+.readMore a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.readMore a:hover {
+    color: black;
+}
+
+.image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .top {
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Adjust the gap for smaller screens */
+        justify-content: center;
+    }
+
+    .container-2 {
+        max-width: 85%; /* Allow the container to be fluid on smaller screens */
+    }
+}
 
 
